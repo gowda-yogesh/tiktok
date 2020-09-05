@@ -1,0 +1,47 @@
+.video_footer{
+    position: relative;
+    bottom: 120px;
+    left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+.video_footer_text{
+    flex : 1;
+}
+
+.video_footer_text > h4{
+
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+
+.video_footer_text > p{
+
+    padding-bottom: 10px;
+}
+
+
+.video_f_icon{
+ position: absolute;
+}
+
+.video_f_icon_ticker > .ticker{
+    height: fit-content;
+    margin-left: 30px;
+    width: 50%
+
+}
+
+.video_f_spin{
+    position: absolute;
+    right: 50px;
+    bottom: 0px;
+    animation: revolve_player infinite 6s linear;
+
+}
+
+@keyframes revolve_player {
+    from {transform:rotate(0deg)}
+    to {transform:rotate(360deg)}
+  }

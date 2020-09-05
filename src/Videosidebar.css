@@ -1,0 +1,11 @@
+.video_sidebar{
+    position: absolute;
+    right:20px;
+    top:20%;
+    color:white
+}
+
+.video_s_num{
+    justify-items: center;
+    align-items: center;
+}
